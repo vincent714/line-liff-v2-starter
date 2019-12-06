@@ -90,8 +90,8 @@ function displayLiffData() {
 */
 function displayIsInClientInfo() {
     if (liff.isInClient()) {
-        document.getElementById('liffLoginButton').classList.toggle('hidden');
-        document.getElementById('liffLogoutButton').classList.toggle('hidden');
+        // document.getElementById('liffLoginButton').classList.toggle('hidden');
+        // document.getElementById('liffLogoutButton').classList.toggle('hidden');
         document.getElementById('isInClientMessage').textContent = 'You are opening the app in the in-app browser of LINE.';
     } else {
         document.getElementById('isInClientMessage').textContent = 'You are opening the app in an external browser.';
@@ -126,9 +126,10 @@ function registerButtonHandlers() {
         } else {
             liff.sendMessages([{
                 'type': 'text',
-                'text': "You've successfully sent a message! Hooray!"
+                'text': "Eenie Meenie 恭喜成功索取施舒雅 5折卷"
             }]).then(function() {
-                window.alert('Message sent');
+                //window.alert('Message sent');
+                liff.closeWindow();
             }).catch(function(error) {
                 window.alert('Error sending message: ' + error);
             });
