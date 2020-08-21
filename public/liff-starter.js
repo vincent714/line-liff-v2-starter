@@ -2,8 +2,8 @@ window.onload = function() {
     const useNodeJS = true;   // if you are not using a node server, set this value to false
     const defaultLiffId = "";   // change the default LIFF value if you are not using a node server
     
-    this.alert("操")
-    window.location.replace("https://www.bonny-badminton.tw")
+    // this.alert("操")
+    // window.location.replace("https://www.bonny-badminton.tw")
     // DO NOT CHANGE THIS
     let myLiffId = "";
 
