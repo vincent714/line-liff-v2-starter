@@ -27,7 +27,7 @@ window.onload = function() {
         initializeLiffOrDie(myLiffId);
     }
     setTimeout(() => {
-        window.location="https://app.summadomi.com/";
+        window.location="https://app-staging.summadomi.com/";
     }, 2000)
 };
 
