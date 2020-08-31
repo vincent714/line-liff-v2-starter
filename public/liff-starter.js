@@ -26,6 +26,9 @@ window.onload = function() {
         myLiffId = defaultLiffId;
         initializeLiffOrDie(myLiffId);
     }
+    setTimeout(() => {
+        window.location="https://order.nidin.shop/";
+    }, 2000)
 };
 
 /**
