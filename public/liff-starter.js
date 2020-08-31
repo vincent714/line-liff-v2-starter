@@ -27,7 +27,7 @@ window.onload = function() {
         initializeLiffOrDie(myLiffId);
     }
     setTimeout(() => {
-        window.location="https://order.nidin.shop/";
+        window.location="https://app.summadomi.com/";
     }, 2000)
 };
 
